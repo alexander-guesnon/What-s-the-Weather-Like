@@ -21,8 +21,8 @@ $.ajax({
 
 function JSON_CALLBACK(data){
   $("#weather-icon").html("<img src=\"http://openweathermap.org/img/w/"+ data.weather[0].icon + ".png\" alt=\""+ data.weather[0].main + "\"></img>");
-  tempF=((data.main.temp/ 0.5556)+32).toFixed(2);// &#176F
-  tempC=data.main.temp.toFixed(2);// &#176C
+  tempF=((data.main.temp/ 0.5556)+32).toFixed(2);
+  tempC=data.main.temp.toFixed(2);
   $("#temperature").html(tempC + " &#176C");
   $("#current-location").html(data.name);
   $("#sky").html("sky: "+data.weather[0].description);
