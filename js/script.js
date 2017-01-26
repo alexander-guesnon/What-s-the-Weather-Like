@@ -10,8 +10,6 @@ var currenttempMS = true;
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
         weatherAJAXurl = "http://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&units=metric&appid=" + appToken + "&callback=JSON_CALLBACK";
-        //console.log(position.coords.latitude);
-        //console.log(position.coords.longitude);
         $.ajax({
             type: "GET",
             url: weatherAJAXurl,
@@ -34,7 +32,6 @@ function JSON_CALLBACK(data) {
     $("#current-location").html(data.name);
     $("#sky").html(data.weather[0].description);
     $("#wind-speed").html("<i class=\"wi wi-sandstorm\"></i> " + tempMS  + " m/s");
-    console.log(data.weather[0].icon);
     switch (data.weather[0].icon) {
         case "01d": //sun
         case "02d":
@@ -158,7 +155,6 @@ function JSON_CALLBACK(data) {
 
             }
     }
-    console.log(data);
 }
 
 $(document).ready(function() {
