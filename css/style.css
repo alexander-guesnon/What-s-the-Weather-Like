@@ -1,27 +1,296 @@
-body{
-  color: #ecf0f1;
-background-color: #2c3e50;
-}
 
+html{
+
+    min-width: 650px;
+}
+body {
+  color: #ecf0f1;
+  background-color: #2c3e50;
+
+}
+.body-wrapper{
+
+  max-width:1920px;
+  margin: 0 auto;
+}
 a, a:link, a:hover, a:visited {
-    color: #000000;
+    color: inherit;
     text-decoration: none;
 }
-.title{
-  text-align: center;
+
+hr {
+    border: none;
+    color: #ecf0f1;
+    background-color: #ecf0f1;
 }
-#current-location{
-  text-align: center;
+
+.title {
+    text-align: center;
 }
-#sky{
-  text-align: center;
+
+#current-location {
+    position: absolute;
+    background-color: #7f8c8d;
+    text-align: center;
 }
-#temperature{
-  text-align: center;
+
+#sky {
+    position: absolute;
+    background-color: #7f8c8d;
+    text-align: center;
 }
-#wind-speed{
-  text-align: center;
+
+#temperature {
+    position: absolute;
+    background-color: #7f8c8d;
+    text-align: center;
 }
-.my-name{
-  text-align: center;
+
+#wind-speed {
+    position: absolute;
+    text-align: center;
+    background-color: #7f8c8d;
+}
+
+.my-name {
+    color: #000000;
+    position: absolute;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1824px) {
+  body {
+      font-size: 100px;
+  }
+  hr {
+      height: 7px;
+      margin: 0px 25px 0px 25px;
+  }
+  .title {
+      margin: 50px 0px 0px 0px;
+  }
+  #current-location {
+      line-height: 130px;
+      top: 330px;
+      left: 50%;
+      margin-top: -65px;
+      margin-left: -475px;
+      height: 130px;
+      width: 950px;
+  }
+  #sky {
+    line-height: 130px;
+    top: 530px;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -475px;
+    height: 130px;
+    width: 950px;
+  }
+  #temperature {
+      line-height: 130px;
+      top: 740px;
+      left: 25%;
+      margin-top: -65px;
+      margin-left: -250px;
+      height: 130px;
+      width: 500px;
+  }
+  #wind-speed {
+    line-height: 130px;
+    top: 740px;
+    left: 75%;
+    margin-top: -65px;
+    margin-left: -250px;
+    height: 130px;
+    width: 500px;
+  }
+  .my-name {
+      top: 45%;
+      left: 50%;
+      height: 50px;
+      width: 300px;
+      margin-top: -25px;
+      margin-left: -150px;
+      font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1224px) and (max-width: 1823px) {
+    body {
+        font-size: 70px;
+    }
+    hr {
+        height: 4px;
+        margin: 0px 25px 0px 25px;
+    }
+    .title {
+        margin: 50px 0px 0px 0px;
+    }
+    #current-location {
+        line-height: 100px;
+        top: 275px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -350px;
+        height: 100px;
+        width: 700px;
+    }
+    #sky {
+        line-height: 100px;
+        top: 440px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -350px;
+        width: 700px;
+        height: 100px;
+    }
+    #temperature {
+        line-height: 100px;
+        top: 610px;
+        left: 25%;
+        margin-top: -50px;
+        margin-left: -250px;
+        height: 100px;
+        width: 500px;
+    }
+    #wind-speed {
+        line-height: 100px;
+        top: 610px;
+        left: 75%;
+        margin-top: -50px;
+        margin-left: -250px;
+        height: 100px;
+        width: 500px;
+    }
+    .my-name {
+        top: 720px;
+        left: 50%;
+        height: 50px;
+        width: 300px;
+        margin-top: -25px;
+        margin-left: -150px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 971px) and (max-width: 1243px) {
+    body {
+
+        font-size: 55px;
+    }
+    hr {
+        height: 3px;
+        margin: 0px 25px 0px 25px;
+    }
+    .title {
+        margin: 30px 0px 0px 0px;
+    }
+    #current-location {
+        line-height: 90px;
+        top: 200px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -300px;
+        height: 90px;
+        width: 600px;
+    }
+    #sky {
+        line-height: 90px;
+        top: 340px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -300px;
+        width: 600px;
+        height: 90px;
+    }
+    #temperature {
+        line-height: 90px;
+        top: 490px;
+        left: 25%;
+        margin-top: -50px;
+        margin-left: -212.5px;
+        height: 90px;
+        width: 425px;
+    }
+    #wind-speed {
+        line-height: 90px;
+        top: 490px;
+        left: 75%;
+        margin-top: -50px;
+        margin-left: -212.5px;
+        height: 90px;
+        width: 425px;
+    }
+    .my-name {
+        top: 590px;
+        left: 50%;
+        height: 50px;
+        width: 300px;
+        margin-top: -25px;
+        margin-left: -150px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 50px) and (max-width: 970px)  {
+    body {
+
+        font-size: 55px;
+    }
+    hr {
+        height: 3px;
+        margin: 0px 25px 0px 25px;
+    }
+    .title {
+        margin: 30px 0px 0px 0px;
+    }
+    #current-location {
+        line-height: 90px;
+        top: 200px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -300px;
+        height: 90px;
+        width: 600px;
+    }
+    #sky {
+        line-height: 90px;
+        top: 340px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -300px;
+        width: 600px;
+        height: 90px;
+    }
+    #temperature {
+        line-height: 90px;
+        top: 485px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -212.5px;
+        height: 90px;
+        width: 425px;
+    }
+    #wind-speed {
+        line-height: 90px;
+        top: 630px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -212.5px;
+        height: 90px;
+        width: 425px;
+    }
+    .my-name {
+        top: 750px;
+        left: 50%;
+        height: 50px;
+        width: 300px;
+        margin-top: -25px;
+        margin-left: -150px;
+        font-size: 14px;
+    }
 }

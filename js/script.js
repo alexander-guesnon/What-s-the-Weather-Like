@@ -28,7 +28,7 @@ function JSON_CALLBACK(data){
   tempC=data.main.temp.toFixed(2);
   $("#temperature").html( "<i class=\"wi wi-thermometer\"></i> " + tempC + " &#176C");
   $("#current-location").html(data.name);
-  $("#sky").html("sky: "+data.weather[0].description);
+  $("#sky").html(data.weather[0].description);
   $("#wind-speed").html("<i class=\"wi wi-sandstorm\"></i> " + data.wind.speed+" m/s");
   console.log(data);
 }
