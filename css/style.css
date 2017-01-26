@@ -12,7 +12,7 @@ background-size: 100% 100%;
 }
 .body-wrapper{
 
-  max-width:1920px;
+  max-width:3840px;
   margin: 0 auto;
 }
 a, a:link, a:hover, a:visited {
@@ -29,11 +29,7 @@ a, a:link, a:hover, a:visited {
     position: absolute;
     background-color:rgba(127, 140, 141,0.2);
     text-align: center;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+
 }
 
 #sky {
@@ -49,7 +45,7 @@ a, a:link, a:hover, a:visited {
 
 #temperature {
     position: absolute;
-    background-color:rgba(127, 140, 141,0.2); /*#7f8c8d;*/
+    background-color:rgba(127, 140, 141,0.2);
     text-align: center;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -59,13 +55,13 @@ a, a:link, a:hover, a:visited {
 }
 #temperature:hover {
 
-    background-color:rgba(127, 140, 141,0.6); /*#7f8c8d;*/
+    background-color:rgba(127, 140, 141,0.6);
 
 }
 #wind-speed {
     position: absolute;
     text-align: center;
-    background-color:rgba(127, 140, 141,0.2);/*#7f8c8d;*/
+    background-color:rgba(127, 140, 141,0.2);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -74,7 +70,7 @@ a, a:link, a:hover, a:visited {
 }
 #wind-speed:hover {
 
-    background-color:rgba(127, 140, 141,0.6); /*#7f8c8d;*/
+    background-color:rgba(127, 140, 141,0.6);
 
 }
 .my-name {
@@ -122,7 +118,7 @@ a, a:link, a:hover, a:visited {
       margin-top: -65px;
       margin-left: -250px;
       height: 130px;
-      width: 500px;
+      width: 600px;
   }
   #wind-speed {
     line-height: 130px;
@@ -131,7 +127,7 @@ a, a:link, a:hover, a:visited {
     margin-top: -65px;
     margin-left: -250px;
     height: 130px;
-    width: 500px;
+    width: 600px;
   }
   .my-name {
       top: 900px;

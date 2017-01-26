@@ -174,10 +174,10 @@ $(document).ready(function() {
   $("#wind-speed").click(function() {
       if (currenttempMS === true) {
           currenttempMS = false;
-          $("#wind-speed").html("<i class=\"wi wi-thermometer\"></i> " + tempKT + " kt");
+          $("#wind-speed").html("<i class=\"wi wi-sandstorm\"></i> " + tempKT + " kt");
       } else {
           currenttempMS = true;
-          $("#wind-speed").html("<i class=\"wi wi-thermometer\"></i> " + tempMS + " m/s");
+          $("#wind-speed").html("<i class=\"wi wi-sandstorm\"></i> " + tempMS + " m/s");
       }
   });
 });
