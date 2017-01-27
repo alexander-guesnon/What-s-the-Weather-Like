@@ -13,8 +13,35 @@
 
     <!-- Font Awsome library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" integrity="sha256-mkiM+ysrCOrjd7E5S55/Zs+2iocxoDlF9zQVyMxiDv8=" crossorigin="anonymous" />
-   <script src="js/script.js"></script>
 
+<noscript>   <div style="
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          z-index: 3000;
+          height: 100%;
+          width: 100%;
+          color #ecf0f1;
+          background-color: rgba(127, 140, 141,0.6);
+          ">
+           <div style="
+           font-size: 5vw ;
+           position:absolute;
+               text-align: center;
+           top: 50%;
+           left: 50%;
+           margin-top: -13%;
+           margin-left: -40%;
+           line-height: 420%;
+           height: 40%;
+           width: 80%;
+          background-color:rgba(127, 140, 141,0.8);
+           ">
+             Please enable JavaScript</div>
+
+    </div>
+  </noscript>
+   <script src="js/script.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -26,8 +53,8 @@
   <div class="body-wrapper">
     <div class="title"><a href="#">What's the Weather Like</a></div>
 
-        <div id="current-location" >UNKNOWN</div>
-        <div id="sky" >UNKNOWN</div>
+        <div id="current-location" >NO</div>
+        <div id="sky" >LOCATION</div>
 
         <div id="temperature" ><i class="wi wi-thermometer"></i> 0&#176C</div>
         <div id="wind-speed" ><i class="wi wi-sandstorm"></i> 0.0 m/s</div>
