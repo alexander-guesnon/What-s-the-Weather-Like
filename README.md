@@ -1,6 +1,6 @@
 # What-s-the-Weather-Like
 
-"[What-s-the-Weather-Like](https://alexgooz.github.io/What-s-the-Weather-Like/)" will tell you what the weather is like in your area, along with the temperature and wind speed. It does this using the *[Open Weather Map API](https://openweathermap.org/)*. I made this for a freeCodeCamp challenge (Show the Local Weather).
+"[What-s-the-Weather-Like](https://alexander-guesnon.github.io/What-s-the-Weather-Like/)" will tell you what the weather is like in your area, along with the temperature and wind speed. It does this using the *[Open Weather Map API](https://openweathermap.org/)*. I made this for a freeCodeCamp challenge (Show the Local Weather).
 
 ### Note: 
 All images were taken from http://www.publicdomainpictures.net and should all be public domain.
